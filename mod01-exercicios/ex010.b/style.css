@@ -5,14 +5,14 @@
     
 }
 body {
-    background-image: linear-gradient(to bottom, #528FFF, #B8D1FF);
+    background-image: linear-gradient(to bottom, #94C5EB, #C9E0F5);
     background-attachment: fixed;
     
 }
 main {
     background-color: white;
     border-radius: 10px;
-    box-shadow: 5px 5px 15px rgba(58, 67, 67, 0.748);
+    box-shadow: 5px 5px 15px #024a7780;
     width: 600px;
     padding: 10px;
     margin: auto;
@@ -23,14 +23,14 @@ main {
 
 h1 {
     font: normal bold 30px Verdana, Helvetica, sans-serif;
-    color: #10403B;
+    color: #015C94;
     text-align: center;
-    text-shadow: 1px 1px 2px rgba(13, 50, 46, 0.373);
+    text-shadow: 1px 1px 2px #013f6674;
 }
 h2 {
     font: normal bold 20px Verdana, Helvetica, sans-serif;
     text-align: justify;
-    color: #4C5958;
+    color: #015C94;
     
 }
 p {
