@@ -14,3 +14,10 @@ body {
 p {
     color: white;
 }
+
+div {
+    display: inline-table;
+    border: 1px solid black;
+    height: 100px;
+    width: 100px;
+}

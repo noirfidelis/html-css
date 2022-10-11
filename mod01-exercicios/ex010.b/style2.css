@@ -17,8 +17,9 @@ main {
     padding: 10px;
     margin: auto;
     font: normal 18px Arial, Helvetica, sans-serif;
-    
+    color: #015C94;   
 }
+
 
 h1 {
     font: normal bold 30px Verdana, Helvetica, sans-serif;
@@ -29,4 +30,18 @@ h1 {
 
 p {
     font: italic 16x Verdana, Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #015C94;
+    
+}
+
+a:hover {
+    color: #94C5EB;
+}
+
+div {
+    text-align: center;
 }
