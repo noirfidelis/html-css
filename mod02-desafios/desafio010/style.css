@@ -19,8 +19,9 @@ header {
 main {
     background-color: white;
     padding: 10px;
-    margin: 0px 90px;
+    margin: 0px 200px;
 }
+
 p {
     font-size: 18px;
 }
@@ -63,4 +64,22 @@ footer {
     background-color: #0d6a7f;
     color: white;
     text-align: center;
+}
+.extra {
+    background-color: #16c6ed48;
+    padding: none;
+    margin: 5px;
+    
+    
+}
+.corextra {
+    background-color: #15a5c5;
+    color: white;
+}
+div {
+
+    margin-inline: 210px;
+    display: inline-block
+    
+    
 }
