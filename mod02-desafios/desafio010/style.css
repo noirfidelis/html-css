@@ -2,6 +2,8 @@
 
 * {
     font-family: Arial, Helvetica, sans-serif;
+
+    
 } /*#F4523B
     #10ABCD
     #013C76*/
@@ -12,14 +14,17 @@ body {
     margin: 0px;
 }
 header {
-    background-image: linear-gradient(to top, #16c6ed, #0d6a7f);
+    background-image: linear-gradient(to top, #16a2ed, #0d377f);
     padding: 10px;
     margin: 0x;
+ 
 }
 main {
     background-color: white;
     padding: 10px;
     margin: 0px 200px;
+    border-radius: 0px 0px 5px 5px;
+    
 }
 
 p {
@@ -35,13 +40,28 @@ nav > a {
     margin-right: 10px;
 }
 nav > a:hover {
-    text-decoration: underline;
+    text-decoration: none;
+    color: #6ecbfc
 }
-
+article > h3 {
+    margin: 0px;
+    border-radius: 5px 5px 0px 0px;
+    padding: 1px;
+}
+.imagens {
+   
+}
 h1 {
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 40px;
     text-align: center;
     color: white
+}
+p {
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    text-indent: 30px;
 }
 .principal {
     font-size: 18px;
@@ -50,36 +70,50 @@ h1 {
 
     
 }
+.titulo1 {
+    font-size: 37px;
+    color: #1287c6;
+}
 
-.cores {
-    background-color: #16c6ed4e;
+.titulos {
+    text-align: left;
+    background-image: linear-gradient(to left, #ffffff, #16c6ed4e);
+    background-attachment: fixed;
+    padding: 3px;
 }
 
 h2 {
     text-align: center;
-    color: #0d6a7f
+    color: #1287c6;
     
 }
-footer {
+.rodape {
     background-color: #0d6a7f;
     color: white;
     text-align: center;
 }
 .extra {
     background-color: #16c6ed48;
-    padding: none;
-    margin: 5px;
-    
+    padding: 0px;
+    margin: 0px;
+    border-radius: 5px; 
+}
+.bonus {
+    padding: 10px;
     
 }
-.corextra {
+.tituloextra {
     background-color: #15a5c5;
     color: white;
+    padding: 5px;
 }
-div {
-
+/* div {
+    
     margin-inline: 210px;
     display: inline-block
     
     
+} */
+div {
+    text-align: center;
 }
