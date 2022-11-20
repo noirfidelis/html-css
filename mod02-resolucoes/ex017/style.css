@@ -5,9 +5,10 @@
     margin: auto;
 }
 
-h1 {
+header > h1 {
     font: normal bold 40px Verdana, Helvetica, sans-serif;
     text-align: center;
+    
 }
 
 body {
@@ -18,8 +19,8 @@ body {
 }
 
 main {
-    min-width: 300px;
-    max-width: 1000px;
+    min-width: 400px;
+    max-width: 800px;
 }
 
 #bloco {
@@ -27,4 +28,9 @@ main {
     list-style-position: inside;
     padding: 0px;
     
+}
+
+footer {
+    text-align: center;
+    font-size: 0.8em;
 }
