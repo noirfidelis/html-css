@@ -7,15 +7,13 @@
 
 header > h1 {
     font: normal bold 40px Verdana, Helvetica, sans-serif;
-    text-align: center;
-    
+    text-align: center;  
 }
 
 body {
     font: normal 18px Verdana, Helvetica, sans-serif;
     text-align: justify;
-    padding: 10px;
-    
+    padding: 10px;  
 }
 
 main {

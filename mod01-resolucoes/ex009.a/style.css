@@ -1,10 +1,27 @@
 @charset "UTF-8";
 
-h1 {
+* {
+    line-height: 2em;
+    margin: auto;
+}
+
+header > h1 {
     font: normal bold 40px Verdana, Helvetica, sans-serif;
     text-align: center;
 }
 
 body {
     font: normal 18px Verdana, Helvetica, sans-serif;
+    text-align: justify;
+    padding: 10px;
+}
+
+main {
+    min-width: 400px;
+    max-width: 800px;
+}
+
+footer {
+    text-align: center;
+    font-size: 0.8em;
 }
