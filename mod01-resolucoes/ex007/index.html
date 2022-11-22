@@ -9,67 +9,95 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Teste seus conhecimentos</h1>
-    <p><a href="../../mod01-exercicios/ex010.b/resolution.html" rel="prev">voltar para página anterior</a></p>
-    <hr>
-    <p>1 - Normalmente, nossos textos são organizados em sessões, e cada uma pode possuir um título. Em HTML5, existe alguma limitação em relação a quantidade de títulos que um documento pode ter?</p>
-    <p>a) Sim. Só podemos ter no máximo seis títulos.</p>
-    <p>b) Não. Um texto pode ter quantos títulos e quantos níveis for necessário. </p>
-    <p>c) Não. Um texto pode ter vários títulos, mas apenas um máximo de seis níveis. &#10004;</p>
-    <p>d) Sim. Podemos ter até doze títulos, dois para cada nível.</p>
-    <hr>
-    <p>2 - Os títulos podem ser criados em seis níveis diferentes, usando as tags:</p>
-    <p>a) &lt;head 1&gt; até &lt;head 6&gt;</p>
-    <p>b) &lt;header 1&gt; até  &lt;header 6&gt;</p>
-    <p>c) &lt;title 1&gt; até &lt;title 6&gt;</p>
-    <p>d) &lt;h1&gt; até &lt;h6&gt; &#10004;</p>
-    <hr>
-    <p>3 - Se estamos em um ponto do texto com título nível 3 e queremos aprofundar esse assunto com um sub-título, devemos usar qual nível? Lembre-se de seguir a recomendação da W3C</p>
-    <p>a) Nível 4. &#10004;</p>
-    <p>b) Nível 2. </p>
-    <p>c) Nível 3.</p>
-    <p>d) Qualquer nível, de 3 até 6.</p>
-    <hr>
-    <p>4 - O título principal de um determinado documento ou página deverá sempre ser definido com um título de qual nível?</p>
-    <p>a) Nível 1. &#10004;</p>
-    <p>b) Nível 2.</p>
-    <p>c) Nível 3.</p>
-    <p>d) Tanto faz, o que importa é ser um título.</p>
-    <hr>
-    <p>5 - Muitos dizem que um documento só deve ter um título de nível 1 (principal). Essa crença é uma...</p>
-    <p>a) Verdade. Somente um título deve ser o principal e todos os demais deverão ter outros níveis.</p>
-    <p>b) Lenda. A recomendação é que não exista nenhum título de nível 1.</p>
-    <p>c) Verdade. Se colocarmos mais de um título nível 1, seu site não será indexado pelo Google.</p>
-    <p>d) Lenda. É possível adicionar mais de um título de nível 1, só devemos nos dedicar a descrevê-lo muito bem para facilitar a indexação por mecanismos de busca. &#10004;</p>
-    <hr>
-    <p>6 - O estudo da indexação do conteúdo de um site por meio de mecanismos de busca é conhecido popularmente como:</p>
-    <p>a) SEO - Seek Energy Organization.</p>
-    <p>b) SEO - Search Engine Optimization. &#10004;</p>
-    <p>c) SEO - Seek Engine Order.</p>
-    <p>d) SEO - Search Elements Order.</p>
-    <hr>
-    <p>7 - Todo documento HTML deverá ter obrigatoriamente algum nível 6?</p>
-    <p>a) Não. Os títulos de menor nível serão usados apenas se for necessário. &#10004;</p>
-    <p>b) Sim. Pelo menos um título de nível 6.</p>
-    <p>c) Não. Os títulos de nível 6 devem ser evitados para não confundir o visitante.</p>
-    <p>d) Sim. É necessário ter dois ou mais títulos de nível 6.</p>
-    <hr>
-    <p>8 - Quando estamos desenvolvendo um site e o conteúdo ainda não foi definido, uma técnica bastante utilizada é usar blocos de texto genéricos com conteúdo composto por palavras em latim. Esses blocos são mais conhecidos pelo termo:</p>
-    <p>a) Lorem Ipsum. &#10004;</p>
-    <p>b) Ipsum Lorem.</p>
-    <p>c) Carpe Diem.</p>
-    <p>d) Memento Vivere.</p>
-    <hr>
-    <p>9 - Para criar um bloco de texto com termos genéricos em latim usando o VSCode, basta digitar a palavra <ins>lorem</ins> e depois apertar a tecla <ins>enter</ins>.</p>
-    <p>a) lorem / esc</p>
-    <p>b) ipsum / enter</p>
-    <p>c) lorem / enter &#10004;</p>
-    <p>d) ipsum / esc</p>
-    <hr>
-    <p>10 - Se não configurarmos o estilo de cada título, os textos dentro da tag de nível 1 terão letras <ins>menor</ins>, enquanto aqueles dentro da tag 6 terão letras <ins>maior</ins>. Qual dos itens abaixo é o único que preenche corretamente as lacunas desta frase na ordem correta?</p>
-    <p>a) menor / maior &#10004;</p>
-    <p>b) em negrito / em itálico</p>
-    <p>c) maior / menor</p>
-    <p>d) azuis / vermelhas</p>
+    <header>
+        <h1>Teste seus conhecimentos</h1>
+    </header>
+    <nav>
+        <a href="../../mod01-exercicios/ex010.b/index.html" target="_self" rel="prev">Home</a>
+        <a href="../../mod01-exercicios/ex010.b/resolution.html" target="_self" rel="prev">Exercícios</a>
+        <a href="../../mod01-exercicios/ex010.b/resolution2.html" target="_self" rel="prev">Desafios</a>
+    </nav>
+        <main>
+            <article>
+                <ol type="1" id="bloco">
+                    <li>Normalmente, nossos textos são organizados em sessões, e cada uma pode possuir um título. Em HTML5, existe alguma limitação em relação a quantidade de títulos que um documento pode ter?</li>
+                    <ol type="a">
+                        <li>Sim. Só podemos ter no máximo seis títulos.</li>
+                        <li>Não. Um texto pode ter quantos títulos e quantos níveis for necessário.</li>
+                        <li>Não. Um texto pode ter vários títulos, mas apenas um máximo de seis níveis. &#10004;</li>
+                        <li>Sim. Podemos ter até doze títulos, dois para cada nível.</li>
+                    </ol>
+                    <li>Os títulos podem ser criados em seis níveis diferentes, usando as tags:</li>
+                    <ol type="a">
+                        <li>&lt;head 1&gt; até &lt;head 6&gt;</li>
+                        <li>&lt;header 1&gt; até  &lt;header 6&gt;</li>
+                        <li>&lt;title 1&gt; até &lt;title 6&gt;</li>
+                        <li>&lt;h1&gt; até &lt;h6&gt; &#10004;</li>
+                    </ol>
+                    <li>Se estamos em um ponto do texto com título nível 3 e queremos aprofundar esse assunto com um sub-título, devemos usar qual nível? Lembre-se de seguir a recomendação da W3C</li>
+                    <ol type="a">
+                        <li>Nível 4. &#10004;</li>
+                        <li>Nível 2.</li>
+                        <li>Nível 3.</li>
+                        <li>Qualquer nível, de 3 até 6.</li>
+                    </ol>
+                    <li>O título principal de um determinado documento ou página deverá sempre ser definido com um título de qual nível?</li>
+                    <ol type="a">
+                        <li>Nível 1. &#10004;</li>
+                        <li>Nível 2.</li>
+                        <li>Nível 3.</li>
+                        <li>Tanto faz, o que importa é ser um título.</li>
+                    </ol>
+                    <li>Muitos dizem que um documento só deve ter um título de nível 1 (principal). Essa crença é uma...</li>
+                    <ol type="a">
+                        <li>Verdade. Somente um título deve ser o principal e todos os demais deverão ter outros níveis.</li>
+                        <li>Lenda. A recomendação é que não exista nenhum título de nível 1.</li>
+                        <li>Verdade. Se colocarmos mais de um título nível 1, seu site não será indexado pelo Google.</li>
+                        <li>Lenda. É possível adicionar mais de um título de nível 1, só devemos nos dedicar a descrevê-lo muito bem para facilitar a indexação por mecanismos de busca. &#10004;</li>
+                    </ol>
+                    <li>O estudo da indexação do conteúdo de um site por meio de mecanismos de busca é conhecido popularmente como:</li>
+                    <ol type="a">
+                        <li>SEO - Seek Energy Organization.</li>
+                        <li>SEO - Search Engine Optimization. &#10004;</li>
+                        <li>SEO - Seek Engine Order.</li>
+                        <li>SEO - Search Elements Order.</li>
+                    </ol>
+                    <li>Todo documento HTML deverá ter obrigatoriamente algum nível 6?</li>
+                    <ol type="a">
+                        <li>Não. Os títulos de menor nível serão usados apenas se for necessário. &#10004;</li>
+                        <li>Sim. Pelo menos um título de nível 6.</li>
+                        <li>Não. Os títulos de nível 6 devem ser evitados para não confundir o visitante.</li>
+                        <li>Sim. É necessário ter dois ou mais títulos de nível 6.</li>
+                    </ol>
+                    <li>Quando estamos desenvolvendo um site e o conteúdo ainda não foi definido, uma técnica bastante utilizada é usar blocos de texto genéricos com conteúdo composto por palavras em latim. Esses blocos são mais conhecidos pelo termo:</li>
+                    <ol type="a">
+                        <li>Lorem Ipsum. &#10004;</li>
+                        <li>Ipsum Lorem.</li>
+                        <li>Carpe Diem.</li>
+                        <li>Memento Vivere.</li>
+                    </ol>
+                    <li>Para criar um bloco de texto com termos genéricos em latim usando o VSCode, basta digitar a palavra <ins>lorem</ins> e depois apertar a tecla <ins>enter</ins>.</li>
+                    <ol type="a">
+                        <li>lorem / esc</li>
+                        <li>ipsum / enter</li>
+                        <li>lorem / enter &#10004;</li>
+                        <li>ipsum / esc</li>
+                    </ol>
+                    <li>Se não configurarmos o estilo de cada título, os textos dentro da tag de nível 1 terão letras <ins>menor</ins>, enquanto aqueles dentro da tag 6 terão letras <ins>maior</ins>. Qual dos itens abaixo é o único que preenche corretamente as lacunas desta frase na ordem correta?</li>
+                    <ol type="a">
+                        <li>menor / maior &#10004;</li>
+                        <li>em negrito / em itálico</li>
+                        <li>maior / menor</li>
+                        <li>azuis / vermelhas</li>
+                    </ol>
+                </ol>
+                <aside>
+                    <i>"Quando o mundo estiver unido na busca do conhecimento, e não mais lutando por dinheiro e poder, então nossa sociedade poderá enfim, evoluir a um novo nível."</i>
+                </aside>
+            </article>
+        </main>
+        <footer>
+            <p>Created by <a href="https://github.com/noirfidelis" target="_blank">noirfidelis</a> para o CursoemVídeo</p>
+        </footer>
 </body>
 </html>
