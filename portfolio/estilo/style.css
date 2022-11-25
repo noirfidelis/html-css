@@ -1,0 +1,123 @@
+@charset "UTF-8";
+
+* {
+    font-family: Arial, Helvetica, sans-serif;  
+    margin: 0px;
+}
+
+:root {
+    --cor0: white;
+    --cor01: #635248;
+    --cor02: #6F5C51;
+    --cor03: #7A6558;
+    --cor04: #7E6C5E;
+    --fundo: #F1EBDD;
+
+    --branco: white;
+    --richblack: #113537;
+    --silversand: #bbc7ce;
+    --gold: #AB831F;
+    --cor4: #432534;
+
+
+    --font-padrao: Arial, Verdana, Helvetica, sans-serif;
+}
+
+body {
+    font-family: var(--font-padrao);
+}
+
+header {
+    min-height: 80px;
+    background-color: var(--silversand);
+}
+
+header > h1 {
+    padding-top: 52px;
+    padding-left: 85px;
+    font-size: 22px;
+}
+
+nav {
+    background-color: var(--silversand);
+    padding-bottom: 52px;
+    padding-right: 85px;
+    text-align: right;
+}
+
+nav > a {
+    padding: 10px;
+    text-decoration: none;
+    font-size: 14px;
+    
+}
+
+article {
+    min-width: 300px;
+    max-width: 1000px;
+    padding: 350px 300px;
+    background-color: var(--richblack);
+    color: white;
+}
+
+article > h1 {
+    text-align: center;
+    font-size: 72px;
+}
+
+article > p {
+    padding: 20px;
+    text-align: center;
+    font-size: 20px;
+}
+
+#frase {
+    color: white;
+    padding: 84px;
+}
+
+aside {
+    text-align: center;
+    padding: 250px 300px;
+    background-color: var(--cor4);
+}
+
+aside > h2 {
+    text-align: center;
+    font-size: 22px;
+}
+
+aside > p {
+    text-align: center;
+    font-size: 18px;
+    padding: 30px;
+}
+
+div {
+    padding: 30px;
+}
+
+.nome {
+    font-size: 22px;
+    padding: 15px;
+}
+
+.email {
+    font-size: 15px;
+    padding: 15px;
+}
+
+.noir {
+    padding-top: 30px;
+    padding-bottom: 1;
+}
+footer {
+    background-color: var(--silversand);
+    font-size: 14px;
+    text-align: center;
+    
+}
+
+footer > div {
+    margin: 0px;
+}
