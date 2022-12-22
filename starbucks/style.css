@@ -42,6 +42,10 @@ header {
     margin-right: 15px;
 }
 
+.menu a:hover {
+    color: #017143;
+}
+
 section.sobre {
     height: calc(100% - 200px);
     position: relative;
@@ -70,6 +74,12 @@ section.sobre {
 
 }
 
+.copos {
+    position: absolute;
+    bottom: 65px;
+    margin-left: -400px;
+}
+
 .texto-sobre {
     margin-top: 50px;
 }
@@ -95,4 +105,5 @@ section.sobre {
     width: 100px;
     cursor: pointer;
     font-size: 12px;
+    box-shadow: 2px 3px 5px rgb(0 0 0 / 27%)
 }
