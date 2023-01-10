@@ -2,9 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap');
 
 :root {
-    --fundo-letra: #1E1E2A;
     --fundo-nav: #23232e;
     --fundo-main: #0F1819;
+    --fundo-letra: #ff001d;
     --white: #ffffff;
 }
 
@@ -140,10 +140,10 @@ nav {
 }
 
 .card {
-    height: 15.625rem;
-    width: 15.625rem;
+    height: 12.5rem;
+    width: 12.5rem;
     border-radius: 100%;
-    margin: 3rem 0 0 0;
+    margin: 1rem 0 0 0;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -153,16 +153,16 @@ nav {
     background-size: cover;
     background-repeat: no-repeat;
     filter: grayscale(0.5);
-    color: var(--fundo-letra);
+    color: var(--white);
     cursor: pointer;
     transition: 0.5s ease-in-out;
 }
 
 .card2 {
-    height: 15.625rem;
-    width: 15.625rem;
+    height: 12.5rem;
+    width: 12.5rem;
     border-radius: 100%;
-    margin: 3rem 0 0 0;
+    margin: 1rem 0 0 0;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -172,7 +172,7 @@ nav {
     background-size: cover;
     background-repeat: no-repeat; 
     filter: grayscale(0.5);
-    color: var(--fundo-letra);
+    color: var(--white);
     cursor: pointer;
     transition: 0.5s ease-in-out;
 }
@@ -181,6 +181,10 @@ nav {
     width: 40%;
     letter-spacing: 0.063rem;
     color: var(--white)
+}
+
+.card-text p {
+    font-size: 1.563rem;
 }
 
 .card-wrapper {
@@ -205,7 +209,7 @@ nav {
 }
 
 .card-wrapper h2 {
-    font-size: 1.875rem;
+    font-size: 1.563rem;
     text-transform: uppercase;
     letter-spacing: 0.188rem;
     margin: 0;
@@ -235,6 +239,7 @@ nav {
     opacity: 1;
     visibility: visible;
     font-size: 0.875rem;
+    color: black;
 }
 
 .card2:hover {
@@ -250,5 +255,19 @@ nav {
 .card2:hover > .card-wrapper p {
     opacity: 1;
     visibility: visible;
+    font-size: 0.875rem;
+    color: white;
+}
+
+            /*  FOOTER   */
+footer {
+    position: absolute;
+    width: 100%;
+    height: 1.875rem;
+    bottom: 0;
+    background-color: var(--fundo-nav);
+    display: flex;
+    align-items: center;
+    justify-content: center;
     font-size: 0.875rem;
 }
