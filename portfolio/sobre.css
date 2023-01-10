@@ -122,92 +122,28 @@ nav {
 .mobile-menu.active .line3 {
     transform: rotate(45deg) translate(-5px, -7px);
 }
-
                 /*  CONTEÚDO    */
 .container {
     height: 92vh;
-    width: 100vw;
+    width: 100%;
     background-color: var(--fundo-main);
-    background-image: url(imagens/noirfidelis.png);
+    
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    box-sizing: border-box;
-    padding: 0 7rem;
-
-}
-
-h1 {
-    font-size: 3.125rem;
-    text-transform: uppercase;
-    letter-spacing: 0.25rem;
-    padding-bottom: 2.5rem;
-}
-
-h2 {
-    text-transform: uppercase;
-    letter-spacing: 0.25rem;
-
-}
-
-.social-media {
-    margin-top: 1rem;
-    display: flex;
-    padding-top: 1.875rem;
-}
-
-.social-media a {
-    text-decoration: none;
-    color: var(--white);
-    padding: 1rem 4rem;
-    border: 0.063rem solid var(--white);
-    min-width: 4rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition: .5s ease-in-out;
-}
-
-.social-media a:hover {
-    background-color: var(--white);
-}
-
-            /*  CARDS   */
-.conteudo {
-    height: auto;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
     justify-content: space-evenly;
-    margin: 3rem 0;
 }
 
-.card-conteudo {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    width: 90%;
+.text {
+    height: 100%;
+    width: auto;
+    background-color: var(--fundo-nav);
+    text-align: center;
+    
 }
 
-.card {
-    width: 18.75rem;
-    height: 18.75rem;
-    border-radius: 100%;
-    margin: 3rem 0 0 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: var(--white);
-    background-image: url(imagens/exercicios.jpg); /* NÃO COUBE A IMAGEM TODA */
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    filter: grayscale(0.5);
-    color: var(--white);
-    cursor: pointer;
-    transition: 0.5s ease-in-out;
+.text h1 {
+    margin-top: 50px;
 }

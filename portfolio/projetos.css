@@ -122,71 +122,17 @@ nav {
 .mobile-menu.active .line3 {
     transform: rotate(45deg) translate(-5px, -7px);
 }
-
                 /*  CONTEÚDO    */
 .container {
     height: 92vh;
-    width: 100vw;
-    background-color: var(--fundo-main);
-    background-image: url(imagens/noirfidelis.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    box-sizing: border-box;
-    padding: 0 7rem;
-
-}
-
-h1 {
-    font-size: 3.125rem;
-    text-transform: uppercase;
-    letter-spacing: 0.25rem;
-    padding-bottom: 2.5rem;
-}
-
-h2 {
-    text-transform: uppercase;
-    letter-spacing: 0.25rem;
-
-}
-
-.social-media {
-    margin-top: 1rem;
-    display: flex;
-    padding-top: 1.875rem;
-}
-
-.social-media a {
-    text-decoration: none;
-    color: var(--white);
-    padding: 1rem 4rem;
-    border: 0.063rem solid var(--white);
-    min-width: 4rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition: .5s ease-in-out;
-}
-
-.social-media a:hover {
-    background-color: var(--white);
-}
-
-            /*  CARDS   */
-.conteudo {
-    height: auto;
     width: 100%;
+    background-color: var(--fundo-main);
     display: flex;
-    flex-direction: column;
+    flex-direction: column; 
     justify-content: space-evenly;
-    margin: 3rem 0;
 }
-
-.card-conteudo {
+                /*  CARDS    */
+.card-container {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -194,20 +140,115 @@ h2 {
 }
 
 .card {
-    width: 18.75rem;
-    height: 18.75rem;
+    height: 15.625rem;
+    width: 15.625rem;
     border-radius: 100%;
     margin: 3rem 0 0 0;
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: var(--white);
-    background-image: url(imagens/exercicios.jpg); /* NÃO COUBE A IMAGEM TODA */
+    background-image: url(imagens/exercicios.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     filter: grayscale(0.5);
-    color: var(--white);
+    color: var(--fundo-letra);
     cursor: pointer;
     transition: 0.5s ease-in-out;
+}
+
+.card2 {
+    height: 15.625rem;
+    width: 15.625rem;
+    border-radius: 100%;
+    margin: 3rem 0 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--white);
+    background-image: url(imagens/desafios.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; 
+    filter: grayscale(0.5);
+    color: var(--fundo-letra);
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+}
+
+.card-text {
+    width: 40%;
+    letter-spacing: 0.063rem;
+    color: var(--white)
+}
+
+.card-wrapper {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.card-wrapper::before {
+    content: '';
+    position: absolute;
+    height: 6.25rem;
+    width: 6.25rem;
+    border-radius: 50%;
+    display: block;
+    border: 0.063rem solid white;
+    opacity: 0;
+    transition: 0.5s ease-in-out;
+}
+
+.card-wrapper h2 {
+    font-size: 1.875rem;
+    text-transform: uppercase;
+    letter-spacing: 0.188rem;
+    margin: 0;
+    transition: 0.5s ease-in-out;
+}
+
+.card-wrapper p {
+    font-size: 0;
+    visibility: visible;
+    opacity: 0;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: 0.5s ease-in-out;
+}
+
+.card:hover {
+    filter: unset;
+}
+
+.card:hover > .card-wrapper::before {
+    height: 12.5rem;
+    width: 12.5rem;
+    opacity: 1;
+}
+
+.card:hover > .card-wrapper p {
+    opacity: 1;
+    visibility: visible;
+    font-size: 0.875rem;
+}
+
+.card2:hover {
+    filter: unset;
+}
+
+.card2:hover > .card-wrapper::before {
+    height: 12.5rem;
+    width: 12.5rem;
+    opacity: 1;
+}
+
+.card2:hover > .card-wrapper p {
+    opacity: 1;
+    visibility: visible;
+    font-size: 0.875rem;
 }
