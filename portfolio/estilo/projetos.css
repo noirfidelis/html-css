@@ -183,8 +183,17 @@ nav {
     color: var(--white)
 }
 
+.card-text a {
+    text-decoration: none;
+    color: var(--white);
+}
+
 .card-text p {
     font-size: 1.563rem;
+}
+
+.card-text:hover a {
+    text-decoration: underline;
 }
 
 .card-wrapper {
@@ -197,7 +206,7 @@ nav {
 }
 
 .card-wrapper::before {
-    content: '';
+    
     position: absolute;
     height: 6.25rem;
     width: 6.25rem;
@@ -216,6 +225,11 @@ nav {
     transition: 0.5s ease-in-out;
 }
 
+.card-wrapper a {
+    text-decoration: none;
+    color: var(--white);
+}
+
 .card-wrapper p {
     font-size: 0;
     visibility: visible;
@@ -224,6 +238,11 @@ nav {
     text-transform: uppercase;
     transition: 0.5s ease-in-out;
 }
+
+.card-wrapper:hover a {
+    text-decoration: underline;
+}
+
 
 .card:hover {
     filter: unset;
