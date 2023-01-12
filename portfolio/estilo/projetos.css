@@ -241,8 +241,8 @@ nav {
 
 .card-wrapper:hover a {
     text-decoration: underline;
+    
 }
-
 
 .card:hover {
     filter: unset;
