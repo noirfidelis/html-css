@@ -181,3 +181,9 @@ footer a:hover {
     color: var(--fundo-letra);
     transition: 0.5s ease-in-out;
 }
+
+@media (max-width: 500px) {
+    footer {
+        margin: 0, auto;
+    }
+}
