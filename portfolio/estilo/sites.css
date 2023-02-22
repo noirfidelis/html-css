@@ -18,6 +18,7 @@ body {
     font-family: 'Poppins', sans-serif;
     color: var(--white);
     background-color: var(--fundo-main);
+  
 }
 
 /* MENU */
@@ -145,44 +146,37 @@ nav {
     text-indent: 0.313rem;
     box-shadow: 5px 5px 15px #00000080;
     background-color: var(--fundo-nav);
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    place-items: center;
 }
 
-.conteudo {
-    background-image: url(../projetos/thumbs/sharelink.png);
-    background-size: auto;
-    height: 15vh;
+#mask1 img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+#mask1 {
+    max-width: 300px;
+}
+
+.card {
+    margin: 1rem 0 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: grayscale(1);
     cursor: pointer;
-    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
-    margin-bottom: 10px;
-}
-.conteudo2 {
-    background-image: url(../projetos/thumbs/starbucks.png);
-    background-size: auto;
-    height: 15vh;
-    cursor: pointer;
-    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
-}
-
-.conteudo img {
-    
-}
-
-.conteudo h1 {
-    font-size: 1.875rem;
-    text-align: center;
-    color: var(--white); 
-}
-
-.conteudo a {
-    font-size: 1.125rem;
-    text-decoration: none;
-    transition: 0.3s;
-    color: var(--white);
-}
-
-.conteudo a:hover {
-    color: var(--fundo-letra);
     transition: 0.5s ease-in-out;
+}
+
+
+.card:hover {
+    filter: unset;
 }
 
 @media (max-width: 500px) {
